@@ -8,7 +8,7 @@ from datasets import Dataset
 from sklearn.metrics import ndcg_score
 from ragas import evaluate as RagasEvaluate
 from ragas.metrics import faithfulness, context_recall, context_precision, answer_relevancy
-from app import models, get_conversational_chain
+from streamlit_app import models, get_conversational_chain
 
 def load_test_dataset():
     with open("data/questions.json", "r") as f:
