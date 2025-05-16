@@ -1,0 +1,20 @@
+langchain
+langchain-openai
+langchain-google-genai
+langchain-groq
+langchain-mistralai
+langchain-huggingface
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch 
+transformers
+pandas
+scikit-learn
+faiss-cpu
+streamlit
+langchain-community
+PyPDF2
+python-dotenv
+ragas
+matplotlib
+ipykernel
